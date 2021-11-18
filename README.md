@@ -2,11 +2,26 @@
 
 #With 1click OWASP secure headers and many other low hanging fruits can be found for any given url.
 
-Steps:
-1. Create a file('target.txt') with list of url's which you want to scan
-2. Enter python 1lick.py
+Following are the low-hanging fruits can be identified with the 1click,
+#x-contenttype_options
+# HSTS 
+#X-frame_Options
+#Content-Secuirty_policy
+#cache-control 
+#Referrer-policy - Inprogress 
+#Server Info Leak 
+#Feature_policy 
+#CORS_Headers 
+#Cross_origin_resource_Policy
+#Cross-Origin-Embedder-Policy
+#X-Permitted-Cross-Domain-Policies
 
-Below is the sample report generated after running scan for 'ctflearn.com':
+**Steps:**
+1. Create a file('target.txt') with list of url's which you want to scan
+2. Enter 'python 1lick.py'
+
+**
+Below is the sample report generated after running scan for 'ctflearn.com':**
 
 Testing for : https://ctflearn.com
 Here is the Report:
