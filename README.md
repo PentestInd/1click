@@ -2,7 +2,7 @@
 
 With 1click OWASP secure headers and many other low hanging fruits can be found for any given url.
 
-Following are the low-hanging fruits can be identified with the 1click,
+# Following are the low-hanging fruits can be identified with the 1click,
 x-contenttype_options,
 HSTS, 
 X-frame_Options,
